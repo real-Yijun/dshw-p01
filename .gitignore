@@ -36,5 +36,4 @@ dist/
 # OS/editor artifacts
 .DS_Store
 .idea/
-.vscode/*
-!.vscode/settings.json
+.vscode/
