@@ -17,13 +17,24 @@
 
 ```text
 dshw-p01/
-├── readme.md
+├── README.md
 ├── report.html
+├── _quarto.yml
 ├── requirements.txt
 ├── .gitignore
 ├── 01_download.ipynb
 ├── 02_clean.ipynb
 ├── 03_analysis.ipynb
+├── index.qmd
+├── book/
+│   ├── 01-overview.qmd
+│   ├── 02-download.qmd
+│   ├── 03-clean.qmd
+│   ├── 04-analysis.qmd
+│   └── custom.scss
+├── .github/
+│   └── workflows/
+│       └── publish-quarto.yml
 ├── data/
 │   ├── stock/
 │   ├── index/
@@ -136,4 +147,11 @@ jupyter nbconvert --to html 03_analysis.ipynb --output report.html
 
 ## GitHub 仓库
 
-https://github.com/real-Yijun/dshw-p02
+https://github.com/real-Yijun/dshw-p01
+
+## Quarto 在线电子书
+
+- 访问链接（GitHub Pages）：https://real-Yijun.github.io/dshw-p01/
+- Quarto 配置文件：`_quarto.yml`
+- 章节源文件：`index.qmd` 与 `book/*.qmd`
+- 自动发布流程：`.github/workflows/publish-quarto.yml`（推送到 `main` 后自动构建并发布）

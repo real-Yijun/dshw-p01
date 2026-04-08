@@ -1,0 +1,37 @@
+# 统计、可视化与回归结果
+
+## 关键图表
+
+### 图 1: 归一化收盘价走势
+
+![](../output/fig1_normalized_price.png)
+
+### 图 2: 日对数收益率分布
+
+![](../output/fig2_return_distribution.png)
+
+### 图 3: 收益率相关系数热力图
+
+![](../output/fig3_corr_heatmap.png)
+
+### 图 4: CPI 与沪深 300 月收益关系
+
+![](../output/fig4_macro_vs_hs300.png)
+
+### 图 5: 近 5 年 ROE 对比
+
+![](../output/fig5_roe_compare.png)
+
+### 图 6: CAPM Beta 估计
+
+![](../output/fig6_capm_beta.png)
+
+### 图 7: CPI 宏观敏感性
+
+![](../output/fig7_macro_gamma.png)
+
+## 分析结论
+
+1. 不同行业个股在收益波动和相关性上存在明显异质性。
+2. CAPM 对不同股票解释力差异显著，单因子模型可作为基准但并不充分。
+3. CPI 单变量回归整体解释力偏低，方向可讨论但强结论需更多控制变量。

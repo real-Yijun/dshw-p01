@@ -1,0 +1,42 @@
+/* Minimal, clean book style inspired by documentation layouts */
+:root {
+  --brand: #1d4ed8;
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+body {
+  color: var(--text);
+  line-height: 1.75;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.01em;
+}
+
+h1.title {
+  color: #111827;
+}
+
+a {
+  color: var(--brand);
+}
+
+.sidebar nav[role="doc-toc"] a,
+.sidebar nav[role="doc-toc"] .nav-link {
+  font-size: 0.95rem;
+}
+
+.quarto-title-banner {
+  background: linear-gradient(90deg, #f8fafc 0%, #eef2ff 100%);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+figure {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+figcaption {
+  color: var(--muted);
+}

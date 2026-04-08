@@ -1,0 +1,36 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "P01: 金融数据获取、管理与初步分析"
+  author: "Yijun Zhao"
+  repo-url: "https://github.com/real-Yijun/dshw-p01"
+  repo-branch: main
+  chapters:
+    - index.qmd
+    - book/01-overview.qmd
+    - book/02-download.qmd
+    - book/03-clean.qmd
+    - book/04-analysis.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - book/custom.scss
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    code-fold: show
+    code-summary: "显示代码"
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+
+lang: zh
