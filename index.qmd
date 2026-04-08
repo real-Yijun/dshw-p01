@@ -2,6 +2,10 @@
 
 本电子书对应课程作业 P01，围绕金融数据从获取到分析的完整流程组织内容。
 
+::: {.cover-hero}
+![](book/assets/cover.png){fig-alt="Data Acquisition, Management & Analysis 封面图"}
+:::
+
 - 仓库地址: https://github.com/real-Yijun/dshw-p01
 - 在线电子书: https://real-Yijun.github.io/dshw-p01/
 

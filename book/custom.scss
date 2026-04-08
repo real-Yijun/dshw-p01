@@ -41,3 +41,14 @@ figure {
 figcaption {
   color: var(--muted);
 }
+
+.cover-hero {
+  margin: 1.2rem auto 1.8rem;
+  max-width: 760px;
+}
+
+.cover-hero img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 18px 40px rgba(30, 58, 138, 0.18);
+}
